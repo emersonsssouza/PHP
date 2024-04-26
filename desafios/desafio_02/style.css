@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgb(46, 46, 189), Black);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.box {
+  background-color: white;
+  width: max-content;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(46, 46, 189);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

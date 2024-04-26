@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html.css">
+    <title>Anatomia da divisão</title>
+</head>
+
+<body>
+    <?php
+    $dividendo = $_GET['dividendo'] ?? 0;
+    $divisor = $_GET['divisor'] ?? 0;
+    ?>
+
+    <main>
+        <h1>Anatomia de uma Divisão</h1>
+        <form action="<? $_SERVER['PHP_SELF'] ?>" method="get">
+            <label for="">Dividendo</label>
+            <input type="number" name="dividendo" id="dividendo">
+            <label for="">Divisor</label>
+            <input type="number" name="divisor" id="">
+            <button type="submit">Analisar</button>
+        </form>
+
+        <section>
+            <h1>Estrutura da Divisão</h1>
+            <section class="container">
+                <div class="DD">
+                    <div class="DD-01">
+                        <!--Dividendo-->
+                        0
+                    </div>
+                    <div class="DD-02">
+                        <!--Divisor-->
+                        0
+                    </div>
+                </div>
+                <div class="RD">
+                    <div class="RD-01">
+                        <!--Resto-->
+                        0
+                    </div>
+                    <div class="RD-02">
+                        <!--Quociente-->
+                        0
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

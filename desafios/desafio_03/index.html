@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <section class="formulario">
+        <div class="container">
+            <h1>Conversor de moedas V1.0 (beta)</h1>
+
+            <form action="cad.php" method="get"> <!--cad.php-->
+                <label for="numero">Quantos R$ voce tem ?</label>
+                <input type="number" name="number" step="0.01" id="number">
+
+                <div class="info">
+                    <div class="info-content">
+                        <h1>Informações</h1>
+                        <p>➡️ Está versão utiliza uma cotação de 4,85</p>
+                        <p>➡️ O conversor esta em sua versão inicial</p>
+                        <p>➡️ O conversor utiliza HTML5, CSS3, JS & PHP</p>
+                    </div>
+                    <div>
+
+                        <button id="btn" type="submit" onclick="valid()">Converter</button>
+            </form>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

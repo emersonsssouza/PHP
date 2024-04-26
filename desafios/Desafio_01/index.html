@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Antecessor e Sucessor</title>
+</head>
+
+<body>
+    <script>
+        function valid() {
+            var input = document.getElementById("number");
+            if (input.value === '') {
+                window.alert("Por favor preencha os campos");
+            }
+        }
+    </script>
+
+    <section class="formulario">
+        <header>
+            <h1>Antecessor e Sucessor</h1>
+        </header>
+
+        <div class="container">
+            <h1>Informe um número</h1>
+
+            <form action="cad.php" method="get">
+                <label for="numero">Número</label>
+                <input type="number" name="number" id="number">
+                <button id="btn" type="submit" onclick="valid()">Calcular</button>
+            </form>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
